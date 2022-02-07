@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+
+}
+.video{
+    margin-top: 90px;
+    border-radius: 35px;
+    overflow: hidden;
+    /* width: 1400px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.vid-div{
+    
+border-radius: 35px;
+    
+overflow: hidden;
+}
+
+section.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px 0px;
+}
+
+.cmmnt-tab {
+    width: 92%;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 71px;
+    border-radius: 39px;
+}
+
+.cmmnt-tab h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 56px;
+}
+
+.comment {
+    width: 100%;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment i {
+    font-size: 27px;
+    color: #09c3b2;
+    margin-right: 20px;
+}
+
+.do-cmmnt {
+    width: 47%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.do-cmmnt input {border: none;font-size: 19px;outline: none;}
+
+.comment button {
+    background: transparent;
+    border: 5px solid black;
+}
+
+.do-cmmnt button {
+    outline: none;
+    border: none;
+    background: transparent;
+}

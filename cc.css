@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Solid:wght@100;300;400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.c-bmp{
+    
+height: 92vh;
+    
+border-bottom-left-radius: 260px;
+}
+
+/*Course start*/
+
+.crs-intro-div div img {
+    height: 586px;
+    width: 586px;
+}
+
+.crs-intro-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.crs-text-div h1 {
+    color: #1ad4a9;
+    font-size: 74px;
+    margin-bottom: 24px;
+}
+
+.crs-text-div p {
+    font-size: 20px;
+    width: 405px;
+    text-align: justify;
+}
+/* couse div starts*/
+
+.crs-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-top-right-radius: 215px;
+    border-bottom-left-radius: 215px;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(129deg, #00ff8dc4, #00dfff8c);
+}
+
+.crs-div h1 {
+    font-size: 48px;
+    color: #383838;
+    margin-top: 66px;
+}
+
+.crs-tab {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1015px;
+}
+
+.tab-links {
+    border: none;
+    background: linear-gradient(136deg, #ffffffbf, #ffffff70);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 65px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #2e2e2e;
+    transition: 0.5s;
+}
+
+.tab-links.active{
+    background: #ff0047;
+    color: white;
+}
+
+button.tab-links:hover {
+    color: white;
+    background: #ff0047;
+}
+
+
+.prog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 1300px;
+    margin: 81px 0px;
+}
+
+.adj2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 1300px;
+    margin: 81px 0px;
+}
+
+.open{
+    text-decoration: none;
+}
+.adj1{
+    margin-bottom: 30px;
+}
+
+
+/*----------------------*/
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+
+  }
+}
+/*keyframes starts*/
+
+
+@keyframes moving{
+    0%{
+      left: -20px;
+    }
+    100%{
+      left: 100%;
+    }
+  }
+  
+  
+  
+  @keyframes fadeIn {
+    0%{
+      opacity: 0;
+      transform: translateY(-59px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    
+  }
+  
+  @keyframes onlypFadein {
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @keyframes onlyFadein {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  
